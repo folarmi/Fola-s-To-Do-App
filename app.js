@@ -8,7 +8,7 @@ const li = document.querySelector("li");
 var spans = document.getElementsByTagName("span");
 const saveBtn = document.querySelector(".save");
 const clearBtn = document.querySelector(".clear");
-console.log(pencil);
+
 
 
 
