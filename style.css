@@ -1,0 +1,55 @@
+.main-wrapper{
+    margin: 0 auto;
+    max-width: 25rem;
+    margin-left: 4rem;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fas{
+    margin-right: 1rem;
+}
+
+#trash{
+    display: none;
+}
+
+.list-items span {
+    cursor:pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid aqua;
+    border-radius: 0.3rem;
+    font-size: 1.0rem;
+    background-color: white;
+    margin-bottom: 8rem;
+}
+
+.clear{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+#text-box{
+    width: 70%;
+    padding: 16px 20px;
+    border: none;
+    border: 2px solid aqua;
+    border-radius: 0.3rem;
+    margin: 8px 0;
+    /* display: none; */
+}
+
+.line-through{
+    text-decoration: line-through;
+}
