@@ -22,7 +22,8 @@ h1{
     display: none;
 }
 
-.list-items span {
+.list-items span, 
+.list-items li{
     cursor:pointer;
 }
 
@@ -44,7 +45,7 @@ button{
 
 #buttons{
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     margin-left: 2rem;
 }
 
@@ -70,6 +71,14 @@ button{
 
 @media only screen and (min-width:961px){
     /* large screen */
+    body{
+        font-size: 1.5rem;
+    }
+
+    li{
+        padding: 0.5rem;
+    }
+
     .main-wrapper{
         max-width: 50rem;
         margin-left: 25rem;
@@ -77,9 +86,14 @@ button{
 
     button{
         bottom: 70px;
+        font-size: 2.0rem;
     }
 
     #buttons{
         margin-left: 15rem;
+    }
+
+    #text-box{
+        font-size: 1.5rem;
     }
 }
